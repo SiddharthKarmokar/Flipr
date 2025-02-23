@@ -58,8 +58,8 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Set Up Environment Variables (if required)
-Ensure you have the necessary API keys for fetching news and publishing to Hashnode. Store them in a `.env` file or configure them in your environment.
+### 4️⃣ Set Up Environment Variables
+Ensure you have the necessary API keys under the name "GROQ_API_KEY", "POSTGRES_URL", "HASHNODE_API_KEY", "BLOG_ID". Store them in a `.env` file or configure them in your environment.
 
 ### 5️⃣ Run the Application
 ```sh
