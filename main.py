@@ -6,7 +6,7 @@ from src.project.components.publish_blog import publish_to_hashnode
 from src.project.components.config import INDIAN_LANGUAGES, get_random_topic
 from src.project.components.logging import logger
 
-st.title("📰 AI-Powered News Blog Generator")
+st.title("📰 Agentic AI News Blog Generator")
 
 city = st.text_input("Enter Region")
 topic = st.text_input("Enter a topic to fetch news")
