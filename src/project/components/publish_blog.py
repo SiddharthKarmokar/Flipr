@@ -1,6 +1,6 @@
 import requests
 from src.project.components.config import API_KEY, PUBLICATION_ID, HASHNODE_API_URL
-from src.project.components.logging.logger import logger
+from src.project.components.logging import logger
 
 PUBLISH_POST_MUTATION = """
 mutation PublishPost($input: PublishPostInput!) {
