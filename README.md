@@ -22,7 +22,7 @@ This repository contains a Streamlit-based application that fetches news, genera
 │   │   ├── __init__.py        # Marks project as a package
 │   │   ├── components/        # Contains all major components of the app
 │   │   │   ├── __init__.py    # Marks components as a package
-│   │   │   ├── agents.py      # New agent and Blog writer agent
+│   │   │   ├── agents.py      # News agent and Blog writer agent
 │   │   │   ├── config/        # Configuration files
 │   │   │   │   ├── __init__.py
 │   │   │   ├── fetch_news.py  # Functionality for fetching news
@@ -58,10 +58,24 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Set Up Environment Variables
+### 4️⃣ Set Up PostgreSQL with pgvector (Required)
+Before running the application, ensure PostgreSQL with pgvector is running:
+```sh
+docker run -d \
+  -e POSTGRES_DB=ai \
+  -e POSTGRES_USER=ai \
+  -e POSTGRES_PASSWORD=ai \
+  -e PGDATA=/var/lib/postgresql/data/pgdata \
+  -v pgvolume:/var/lib/postgresql/data \
+  -p 5532:5432 \
+  --name pgvector \
+  phidata/pgvector:16
+```
+
+### 5️⃣ Set Up Environment Variables
 Ensure you have the necessary API keys under the name "GROQ_API_KEY", "POSTGRES_URL", "HASHNODE_API_KEY", "BLOG_ID". Store them in a `.env` file or configure them in your environment.
 
-### 5️⃣ Run the Application
+### 6️⃣ Run the Application
 ```sh
 streamlit run main.py
 ```
