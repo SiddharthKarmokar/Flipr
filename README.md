@@ -42,7 +42,7 @@ This repository contains a Streamlit-based application that fetches news, genera
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/SiddharthKarmokar/Flipr.git
 cd your-repo
 ```
 
