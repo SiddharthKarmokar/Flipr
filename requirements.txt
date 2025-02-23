@@ -4,7 +4,6 @@ astunparse
 attrs
 colorama
 deep-translator
-diffusers
 distro
 duckduckgo_search
 fastapi
@@ -28,14 +27,7 @@ setuptools
 SQLAlchemy
 streamlit
 sympy
-tensorboard
-tensorflow
-tokenizers
-torch
-torchaudio
-torchvision
 tornado
 tqdm
-transformers
 typer
 uvicorn
