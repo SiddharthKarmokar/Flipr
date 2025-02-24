@@ -2,7 +2,7 @@
 This repository contains a Streamlit-based application that fetches news, generates blog posts, creates relevant images, and publishes them to Hashnode. The application supports multiple Indian languages and allows users to input a city and topic to generate a blog post automatically.
 
 ## 🔗 Deployed Link
-![Agentic AI](http://34.235.166.71:8501)
+[Agentic AI](http://34.235.166.71:8501)
 ## 📺 Demo Video
 [![Agentic AI News Blog Generator Demo](https://img.youtube.com/vi/muD9uB3_1ao/0.jpg)](https://www.youtube.com/watch?v=muD9uB3_1ao)
 
